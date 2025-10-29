@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink; 
+    background-image: url(../img/heart_bg.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+#fifth_page{
+    background-color: white;
+    width: 90vh;
+    height: 97vh;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+hr{
+    border: 4px solid rgb(197, 38, 91);
+    border-radius: 10px;
+    margin-top: 35px;
+    width: 80vh;
+    margin-left: 26px;
+}
+h1{
+    color: rgb(205, 11, 75);
+    font-family:cursive;
+    font-size: 50px;
+    padding-top: 10px;
+    width: 60vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight:bolder;
+}
+p{
+    margin-top: 2px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    font-size:18px;
+    line-height: 70px;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.photo-card{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,5);
+    width: 180px;
+    transition: transform 0.3s ease;
+}
+.photo-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 8px;
+}
+.photo-card:hover {
+  transform: scale(1.05);
+}
+.photo-card p {
+  color: #fc216a;
+  font-weight: 600;
+  font-size: 20px;
+}
+a{
+    text-decoration: none;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: 500; 
+}
+button{
+ background-color: rgb(205, 11, 75);
+  border: 2px solid rgb(167, 30, 76);
+  border-radius: 20px;
+  padding: 6px;
+  margin-left: 30vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 30vh;
+  font-family: cursive;
+  transition: width 2s;
+}
+button:hover{
+    width: 35vh;
+}

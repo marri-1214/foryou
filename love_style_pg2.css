@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink; 
+    background-image: url(../img/heart_bg.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+#second_page{
+    background-color: white;
+    width: 90vh;
+    height: 95vh;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+hr{
+    border: 4px solid rgb(197, 38, 91);
+    margin-top: 35px;
+    width: 80vh;
+    margin-left: 26px;
+}
+h1{
+    color: rgb(205, 11, 75);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding-top: 30px;
+    width: 60vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight:bolder;
+}
+p{
+    margin-top: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    font-size:18px;
+    line-height: 70px;
+}
+img{
+    height: 3vh;
+    width: 3vh;
+}
+input[type="text"]{
+    border: 2px solid rgb(210, 94, 132);
+    border-radius: 10px;
+    padding: 7px;
+    width: 40vh;
+    flex: content;
+    justify-items: center;
+    margin-top: 9vh;
+    /* margin-left: 24vh;  */
+    outline: none;
+}
+label{
+    color: rgb(159, 6, 6);
+    font-size: x-large;
+    font-weight: 600;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 14vh
+}
+a{
+    text-decoration: none;
+    border: 2px solid rgb(78, 57, 63);
+    background-color: rgb(205, 11, 75);
+    color: white;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 33vh;
+}
